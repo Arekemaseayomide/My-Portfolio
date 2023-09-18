@@ -1,0 +1,89 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 100%;
+  padding-bottom: 80px;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: larger;  
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+
+.menu {
+  display: flex; 
+  background-color: transparent; 
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex; 
+}
+
+.menu li {
+  padding: 10px 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.list{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+@media (max-width: 767px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .menu {
+    display: none; 
+  }
+
+  .menu.open {
+    display: block; 
+    position: absolute;
+    top: 55px;
+    right: 0;
+    padding-right: 30px;
+  }
+
+  .menu.open ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -50px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .navbar {
+    max-width: 100%;
+    padding: 60px;
+    transition: all 0.7s ease;
+  }
+}

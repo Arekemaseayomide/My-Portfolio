@@ -1,0 +1,68 @@
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contact{
+    height: 200px;
+    background-color: rgb(7, 7, 101);
+    margin-top: 30px;
+}
+
+.name {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.call{
+    color: white;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.call:hover{
+    color: red;
+}
+
+.link:hover {
+    color: red;
+}
+
+.icon-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.icon-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.links{
+    margin: 5px;
+}
+
+@media (max-width: 767px) {
+    .icon-link {
+        flex-direction: column;
+    }
+    
+}  
+
+@media (min-width: 767px) {
+    .call{
+        margin-left: 30px;
+}
+    .links{
+        font-size: larger;
+        margin-top: 22px;
+    }
+}
