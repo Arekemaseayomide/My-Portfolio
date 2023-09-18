@@ -28,9 +28,9 @@ const Home = () => {
     <>
         <div className="home">
         <div className="typing-demo">
-            <h2 className='text-1'>
+            <p className='text-1'>
             {text1}
-            </h2>
+            </p>
             <p className='text-2'>
             <span className='typed-text' dangerouslySetInnerHTML={{ __html: text2 }} />
             </p>
