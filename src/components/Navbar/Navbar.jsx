@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo"><NavLink className='list' to='/'>ArekeAyo</NavLink></div>
       <div className={`menu ${isOpen ? 'open' : ''}`}>
-        <ul>
+        <ul className='ul'>
           <li><NavLink className='list' to='/'>Home</NavLink></li>
           <li><NavLink className='list' to='/projects'>My Projects</NavLink></li>
           <li><a href={`mailto:${emailAddress}`} className='list'>Contact</a></li>
