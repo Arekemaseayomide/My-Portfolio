@@ -35,7 +35,7 @@ const Home = () => {
             <span className='typed-text' dangerouslySetInnerHTML={{ __html: text2 }} />
             </p>
             {typingComplete && ( 
-            <Link className='btn' to='https://docs.google.com/document/d/1O44Rscsa1yFrspsDqSoQPSrhdWUHAbo1GdwRTdio-NI/edit'>Résumé</Link>
+            <Link className='btn' to='https://docs.google.com/document/d/1ucxmvsdxYgSThALk_RsZgl3gU56DliWxGlpgJubyGuM/edit'>Résumé</Link>
             
           )}
         </div>
