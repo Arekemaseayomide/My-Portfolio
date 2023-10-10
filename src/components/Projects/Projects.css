@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600;
 }
 
 .contact{
@@ -48,6 +50,7 @@
 
 .links{
     margin: 5px;
+    font-size: 30px;
 }
 
 @media (max-width: 767px) {

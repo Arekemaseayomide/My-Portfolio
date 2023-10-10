@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <>
         <div>
-            <h1 className='projects'>My Projects</h1>
+            <p className='projects'>My Projects</p>
             <Project/>
         </div>
             <div className='contact'>

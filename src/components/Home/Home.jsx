@@ -28,14 +28,14 @@ const Home = () => {
     <>
         <div className="home">
         <div className="typing-demo">
-            <h1 className='text-1'>
+            <p className='text-1'>
             {text1}
-            </h1>
-            <h3 className='text-2'>
+            </p>
+            <p className='text-2'>
             <span className='typed-text' dangerouslySetInnerHTML={{ __html: text2 }} />
-            </h3>
+            </p>
             {typingComplete && ( 
-            <Link className='btn' to='https://docs.google.com/document/d/1O44Rscsa1yFrspsDqSoQPSrhdWUHAbo1GdwRTdio-NI/edit'>Résumé</Link>
+            <Link className='btn' to='https://docs.google.com/document/d/1ucxmvsdxYgSThALk_RsZgl3gU56DIiWxGIpgJubyGuM/edit'>Résumé</Link>
             
           )}
         </div>

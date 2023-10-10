@@ -1,75 +1,74 @@
 .home {
-    display: grid;
-    align-items: flex-start;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 130px;
-    height: 100%;
-  }
-  
-  .text-1 {
-    margin-top: 10px;
-    font-size: 4em;
-    padding: 8px;
-  }
-  
-  .text-2 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 17px;
-  }
-  
-  .blue-text {
-    color: blue;
-  }
-  
-  .typing-demo {
-    font-size: 2em;
-    line-height: 1.2;
-    overflow: hidden;
-    max-width: 100%;
-    padding-right: 10px;
-    animation: blink .5s step-end infinite alternate;
-  }
-  
-  .typed-text {
-    opacity: 0;
-    animation: appear 0.5s ease forwards;
-  }
-  
-  .btn {
-    border: 2px solid blue;
-    text-decoration: none;
-    color: black;
-    padding: 10px 10px;
-    margin-top: 25px;
-    border-radius: 16px;
-    display: inline-block; 
-    vertical-align: middle; 
-    margin-left: 15px;
-    transition: .8s ease;
-  }
+  display: grid;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 130px;
+  height: 100%;
+}
 
-  .btn:hover{
-    background-color: rgb(7, 7, 101);
-    border: white;
-    color: white;
-    transition: .8s ease;
+.text-1 {
+  margin-top: 10px;
+  font-size: 3.5em;
+  padding: 8px;
+}
+
+.text-2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 17px;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.typing-demo {
+  font-size: 2em;
+  line-height: 1.2;
+  overflow: hidden;
+  max-width: 100%;
+  padding-right: 10px;
+  animation: blink .5s step-end infinite alternate;
+}
+
+.typed-text {
+  opacity: 0;
+  animation: appear 0.5s ease forwards;
+}
+
+.btn {
+  border: 2px solid blue;
+  text-decoration: none;
+  color: black;
+  padding: 10px 10px;
+  margin-top: 25px;
+  border-radius: 16px;
+  display: inline-block; 
+  vertical-align: middle; 
+  margin-left: 15px;
+  transition: .8s ease;
+}
+
+.btn:hover{
+  background-color: rgb(7, 7, 101);
+  border: white;
+  color: white;
+  transition: .8s ease;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
   }
-  
-  @keyframes appear {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+  to {
+    opacity: 1;
   }
-  
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
   }
-  
+}
