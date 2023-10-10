@@ -25,6 +25,21 @@ const Project = () => {
                     <div className="card-content">
                         <img
                         className="img"
+                        src="/assets/images/prompt.png"
+                        alt="Prompt"
+                        />
+                        <h4 className="text">
+                        An open-source AI prompting tool for the modern world to discover, create and share creative prompts. Built with Next.js, Tailwind CSS and Mongodb.
+                        </h4>
+                        <a className="btns" href="https://areke-ayo-share-prompts.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        View Project Live
+                        </a>
+                    </div>
+                </div>
+                <div className="main-card">
+                    <div className="card-content">
+                        <img
+                        className="img"
                         src="/assets/images/a1ge.png"
                         alt="Dashboard"
                         />
