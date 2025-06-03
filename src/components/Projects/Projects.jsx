@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
-  faSquareXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Projects = () => {
